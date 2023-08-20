@@ -1,0 +1,40 @@
+html {
+    height: 100%;/*tạo chiều cao trang 100%*/
+    background-image: url(ANH2.png);/*tạo ảnh hình nền trang web*/
+}
+
+
+
+.menu {
+    display: block;/*tạo khối cho trang web*/
+    margin-left: 36%;/*căn lề trái 36% tính từ mép lề*/
+    margin-right: auto;/*căn lề phải tự động cho văn bản*/
+    width: 40%;/*tạo độ rộng 40% cho văn bản*/
+}
+
+
+#bao {
+    list-style: none;/*không thiết lập kiểu cho danh sách*/
+}
+
+
+
+#tintuc {
+    list-style: none;/*không thiết lập kiểu cho danh sách*/
+    color: rgb(247, 0, 255);/*tạo màu tím cho dòng chữ */
+}
+
+#email {
+    color: rgb(60, 0, 255);/*tạo màu xanh nước biển cho dòng chữ*/
+}
+
+
+
+.anh{
+    width: 140px;/*tạo độ rộng cho ảnh là 140px*/
+    height: 195px;/*tạo chiều cao cho ảnh là 195px */
+}
+.anh2{
+    width: 140px;/*tạo độ rộng cho ảnh là 140px*/
+    height: 195px;/*tạo chiều cao cho ảnh là 195px */
+}

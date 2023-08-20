@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phiếu điều tra</title>
+    <link rel="stylesheet" href="2.10.css"><!--gắn link css-->
+</head>
+<body>
+	<h2>Phiếu điều tra</h2>
+	<form action="#" method="post">
+        <div class="container">
+            <div class="form" id="form">
+                <div class="content">
+		<table border="bold"><!--tạo bảng-->
+			<tr>
+				<td><label for="name">Họ và tên:</label></td><!--tạo ô ghi họ tên-->
+				<td><input type="text" id="name" name="name"></td>
+			</tr>
+			<tr>
+				<td><label for="password">Mật khẩu:</label></td><!--tạo nhãn ghi mật khẩu-->
+				<td><input type="password" id="password" name="password"></td>
+			</tr>
+			<tr>
+				<td><label for="age">Tuổi:</label></td><!--tạo radio lựa chọn tuổi-->
+				<td>
+					<input type="radio" id="age1" name="age" value="1-18">
+					<label for="age1">1 đến 18</label><br>
+					<input type="radio" id="age2" name="age" value="19-25">
+					<label for="age2">19 đến 25</label><br>
+					<input type="radio" id="age3" name="age" value="26-40">
+					<label for="age3">26 đến 40</label><br>
+					<input type="radio" id="age4" name="age" value="40+">
+					<label for="age4">Trên 40</label><br>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Thời gian tốt nhất để đọc mail:</label></td><!--tạo checkbox lựa chọn thời gian-->
+				<td>
+					<input type="checkbox" id="time1" name="time[]" value="buổi sáng">
+					<label for="time1">Buổi sáng</label><br>
+					<input type="checkbox" id="time2" name="time[]" value="buổi chiều">
+					<label for="time2">Buổi chiều</label><br>
+					<input type="checkbox" id="time3" name="time[]" value="buổi tối">
+					<label for="time3">Buổi tối</label><br>
+					<input type="checkbox" id="time4" name="time[]" value="(bất kỳ giờ nào)">
+					<label for="time4">Bất kỳ giờ nào</label><br>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Sở thích:</label></td><!--tạo option lựa chọn sở thích-->
+				<td>
+					<select name="interests">
+						<option value="">--Chọn sở thích--</option>
+						<option value="thể thao">Thể thao</option>
+						<option value="du lịch">Du lịch</option>
+						<option value="ca nhạc">Ca nhạc</option>
+						<option value="phim ảnh">Phim ảnh</option>
+					</select>	
+				</td>	
+			</tr>	
+		 </table>	
+		 <br>	
+		 <button type= "submit">Gửi</button><!--tạo nút button nhấn gửi-->
+	  </form>	
+      </div>
+    </div>
+</div>
+   </body>	
+   </html>
+

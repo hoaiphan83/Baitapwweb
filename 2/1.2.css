@@ -1,0 +1,25 @@
+body {
+    background-image: url("anh1.jpg");/*gắn ảnh nền cho trang web*/
+    display: block;/*tạo khối cho trang web*/
+    margin-left: auto;/*căn chỉnh lề trái tự động */
+    margin-right: auto;/*căn chỉnh lề phải tự động*/
+    width: 40%;/*tạo độ rộng 40% cho trang web*/
+}
+h1 {
+    color: rgb(0,0,255);/*tạo màu chữ xanh biển cho tiêu đề*/
+    font-size: 40px;/*tạo kích thước dòng tiêu đề là 40px*/
+}
+h2 {
+    color: #FFD700;/*tạo màu vàng cho dòng tiêu đề*/
+}
+p{
+    text-align: center;/*căn chình dòng chữ ở giữa văn bản*/
+}
+ol li {
+    color: rgb(233, 14, 14);/*thẻ sắp xếp theo thứ tự có màu đỏ*/
+
+}
+h3 {
+    color: blueviolet;/*tạo màu tiêu đề cho văn bản là màu tím*/
+    text-align: center;/*căn chỉnh dòng chữ ở giữa văn bản*/
+}

@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(225, 150, 65);/*tạo màu nền cho trang web*/
+    display: block;/*trình bày kiểu khối cho trang web*/
+    width: 100%;
+}
+li{
+    left: 31%;/*căn lề trái 31% cho danh sách thư mục*/
+    position: relative;/*thiết lập vị trí phần tử mà không ảnh hưởng đến vị trí ban đầu*/
+    font-size: 16px;/*thiết lập kích thước chữ */
+}
+.square{
+    list-style: square;/*thiêt lập kiểu danh sách hình vuông*/
+}
+.circle{
+    list-style: circle;/*thiết lập kiểu danh sách hình tròn*/
+}
+h4{
+    background-color: red;/*tạo phông nền màu đỏ cho h4*/
+    color: white;/*tạo màu trắng cho dòng chữ*/
+    width: 90px;/*thiết lập độ rộng tiêu đề là 90px*/
+    font-size: 20px;/*thiết lập kích thước tiêu đề là 20px*/
+    line-height: 26px;/*thiết lập chiều cao dòng là 26px*/
+    position: relative;/*thiết lập vị trí phần tử mà ko ảnh hưởng đến vị trí ban đầu*/
+    left: 31%;/*căn chỉnh lề trái 31%*/
+    display: inline-block;/*các thành phần sẽ được xếp cùng nhau trên một dòng*/
+    margin-bottom: 5px;/*căn chỉnh lề dưới là 5px*/
+
+}
+h1{
+    color: red;/*tạo màu chữ đỏ cho tiêu đề*/
+    position: relative;/*thiết lập vị trí phần tử mà không ảnh hưởng đến vị trí ban đầu*/
+    text-align: center;/*căn chỉnh đoạn văn ở giữa trang web*/
+}
+hr{
+    position: relative;/*thiết lập vị trí phần tử mà khôgn ảnh hưởng đến vị trí ban đầu*/
+    left: -25px;
+}
+.noidung{
+    position: relative;/*thiết lập vị trí phần tử mà không ảnh hưởng đến vị trí ban đầu*/
+    top: -320px;/*thiết lập vị trí lên trên 320px so với vị trí ban đầu*/
+}
+.copy{
+    position: relative;/*thiết lập vị trí của phần tử mà không làm ảnh hưởng đến vị trí ban đầu*/
+    left: 500px;/*căn chỉnh lề trái 500px*/
+    
+}

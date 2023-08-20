@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang web với frames</title>
+
+    <script>
+        function displayContent(page) {
+            var frameRight = document.getElementById("frameRight");
+            frameRight.src = page;
+        }
+    </script>
+</head>
+<body>
+    <div class="container"> 
+        <span style="color: rgb(233, 166, 73)">.</span>  
+        <h1>BÀI TẬP NGÔN NGỮ HTML</h1> 
+        <span style="color: rgb(233, 166, 73)">.</span>
+        <!--dung de dinh dang va tao phan noi bat-->
+    </div>
+    <iframeset rows="10%, 45%, 45%">
+        <iframe src="tieude.html" frameborder="0" scrolling="no"></iframe>
+        <iframeset cols="40%, 60%">
+            <iframe src="thucdon.html" frameborder="0" scrolling="auto"></iframe>
+            <iframe id="frameRight" src="bai1.html" frameborder="0" scrolling="auto"></iframe>
+        </iframeset>
+    </iframeset>
+</body>
+</html>
+
+
+    

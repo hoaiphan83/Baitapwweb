@@ -1,0 +1,28 @@
+body {
+    background-color: gold;/* tạo màu nền vàng cho trang*/
+    display: block;/*tạo khối cho trang web*/
+    margin-left: auto; /*tự động căn lề trái cho trang web*/
+    margin-right: auto;/*tự động căn lề phải cho trang web*/
+    width: 40%;/*tạo độ rộng 40% cho trang */
+}
+
+
+h1 {
+    color: rgb(255, 0, 0); /*tạo màu chữ đỏ cho tiêu đề*/
+    font-size: 25px;/*tạo kích thước 25px cho tiêu đề*/
+}
+
+h2 {
+    color: rgb(233, 14, 14);/*tạo màu đỏ cho tiêu đề chữ*/
+}
+
+ol li {
+    color: rgb(18, 31, 218);/*thẻ tạo thứ tự có sắp xếp có màu xanh*/
+}
+p{
+    text-align: center;/*căn chỉnh đoạn văn ở giữa*/
+}
+h3 {
+    color: blueviolet;/*tạo màu tím cho tiêu đề*/
+    text-align: center;/*căn chỉnh dòng ở giữa trang*/
+}

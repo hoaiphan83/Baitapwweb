@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;/*tạo màu nền cho trang web*/
+}
+h2{
+    text-align: center;/*căn chỉnh đoạn văn ở giữa*/
+}
+h3{
+    position: relative;/*thiết lập vị trí phần tử mà không ảnh hưởng đến việc hiển thị ban đầu*/
+    left: 590px;/*căn lề trái 590px */
+}
+a{
+    position: relative;/*thiết lập vị trí phần tử mà không ảnh hưởng đến việc hiển thị ban đầu*/
+    left: 630px;/*căn lề trái 630px */
+}

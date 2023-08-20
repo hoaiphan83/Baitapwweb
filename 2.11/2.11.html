@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tạo from và các điều khiển trên from </title><!--tạo thẻ tiêu đề cho trang web-->
+    </head>
+    <body>
+        <p align="center" style="color:rgb(8, 212, 243)"><b>Phiếu đăng ký tham gia chương trình khuyến mãi</b></p>
+        <!--thiết lập màu in đậm, căn chỉnh ở giữa và tạo màu xanh dương-->
+        <form>
+            <table border="1" align="center" bgcolor="yellow" style="color: rgb(133, 8, 243)" >
+                <!--thiết lập đường viền cho bảng căn chỉnh ở giữa và tạo màu cho bảng-->
+                <tr><td>Họ và tên</td><td><input type="text" value="Nguyễn Ngọc Quỳnh Nga"/></td></tr>
+                <tr><td>Địa chỉ</td><td><input type="text" value="2Bia Hùng Vương Q10"</td></tr>
+                <tr><td>Điện thoại</td><td><input type="text" value="0909097506"</td></tr>
+                <tr><td>Phái</td><td><input type="radio" name="sex" value="male"/>Nam<input type="radio" name="sex" value="female" checked="checkedS"/>Nữ</td></tr>
+                <!--tạo radio lựa chọn giưới tính-->
+                <tr><td>Nghề nghiệp</td><td><select name="nghề nghiệp">
+                    <!--tạo option lựa chọn nghề nghiệp-->
+                    <option value="giáo viên">Giáo viên</option>
+                    <option value="sinh viân">Sinh viên</option>
+                    <option value="học sinh">Học sinh</option>
+                </select></td></tr>
+                <tr><td rowspan="4">Chọn sản phẩm tham gia</td><td rowspan="4"><input type="text" value="Kem đánh răng"/><br>
+                <input type="text" value="Bột giặt"/><br><input type="text" value="Dầu gội đầu"/><br><input type="text" value="Sữa tắm"/></td></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr><td>Số người dự đoán tham gia</td><td><input type="text" value="30000"</td></tr>
+                <tr><td colspan="2" align="center"><input type="submit" value="Đồng ý"</td></tr>
+                <tr><td colspan="2" align="center" style="color:rgb(228, 9, 89)">Bạn đã đang ký thành công!!!</td></tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    width: 100%;/*tạo độ rộng cho trang web là 100%*/
+    background-color: rgb(232, 240, 119);/*tạo màu nền cho trang web là màu vàng*/
+    min-height: 100vh;/*thiết lập chiều cao tối thiểu nhỏ nhất cho phần tử*/
+}
+.container{
+    background-color: rgb(233, 166, 73);/*tạo màu nền cho phần bao bọc phần tử là màu cam*/
+    margin-bottom: 0px;/*căn chỉnh lề dưới 0px*/
+}
+h1{
+    color: red;/*tạo màu đỏ cho tiêu đề h1*/
+    font-size: 30px;/*tạo kích thước chữ là 30px*/
+    text-align: center;/*căn chỉnh đoạn văn ở giữa*/
+
+}
+.hai{
+    font-size: 20px;/*tạo kích thước chữ là 20px*/
+    font-family:  calibri;/*tạo phông chữ là calibri*/
+    color: blue;/*tạo màu chữ là màu xanh*/
+}
+h4{
+    color: red;/*tạo màu chữ là màu đỏ*/
+    font-size: 20px;/*tạo kích thước chữ là 20px*/
+}
+h5{
+    color: blue;/*tạo màu chữ là màu xanh*/
+    font-size: 16px;/*tạo kích thước chữ là 16px*/
+    line-height: 2px;/*tạo khoảng cách giữa các dòng là 2px*/
+}
+.red{
+    color: red;/*tạo màu đỏ cho dòng */
+}
+.text {
+    display: flex;/*sắp xếp bố cục khối linh hoạt*/
+}
+.hoai{
+    position: relative;/*Dùng để thiết lập một phần tử  mà không làm ảnh hưởng đến việc hiển thị ban đầu.*/
+    left: 10px;/*căn lề trái 10px*/
+    width: 80%;/*thiết lập độ rộng là 80%*/
+}

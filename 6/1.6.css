@@ -1,0 +1,62 @@
+body {
+    display: block;/*tạo khối cho trang web*/
+    margin-left: auto;/*căn lề trái tựu động cho trang web*/
+    margin-right: auto;/*căn lề phải tự động cho trang web*/
+    width: 60%;/*tạo độ rộng 60% cho trang web*/
+    background-color: WHITE;/*tạo nền màu trắng cho trang web*/
+    
+}
+
+.timkiem a {
+    text-decoration: none;/*loại bỏ các trang trí như gạch chân gạch ngang gạch chéo*/
+}
+
+.container p {
+    max-width: 67%;/*định dang chiều rộng tối đa là 67%*/
+    font-size: 20px;/*tạo kích thước là 20px*/
+    margin-left: 16px;/*căn lề trái 16px*/
+    position: relative;/*thiết lập vị trí phần tử mà không ảnh hưởng đến việc hiển thị ban đầu*/
+    top: 30px;/*căn lề trên 30px*/
+}
+h1 { 
+    color: blue;/*tạo màu xanh nước biển */
+    text-align: center;/*căn chỉnh đoạn văn ở giữa*/
+    font-size: 36px;/*thiết lập kích thước cho trang web là 36px*/
+}
+.imganh {
+    margin-left: 70%;/*căn lề trái cho văn bản là 70 %*/
+    margin-top: -21%;/*dịch chuyển lên trên 21% cho vị trí ban đầu của nó*/
+    width: 400px;/*tạo độ rộng 400px */
+    height: 300px;/*tạo chiều cao 300px */
+}
+.searching {
+    width: 600px;/*tạo độ rộng 600px */
+    height: 60px;/*tạo chiều cao 60px */
+    border-style: solid;/*tạo đường viền phần tử liền mạch*/
+    margin-left: 15%;/*căn lề trái 15%*/
+}
+
+#go {
+    margin-left: -1%;/*dịch chuyển sang trái 1 % so với vị trí ban đàu */
+    font-size: 50px;/*tạo kích thước chữ là 50px*/
+    list-style: none;/*không thiết lập các thuộc tính như in nghiêng tô đậm chữ*/
+    display: flex;/*trình bày khối văn bản linh hoạt*/
+    margin-top: -2px;/*dịch lên phía trên 2px so với vị trí ban đầu*/
+}
+
+.timkiemm {
+    margin-top: -40px;/*dịch chuyển lên trên 40px so với vị trí ban đầu*/
+    margin-left: 40%;/*căn chỉnh lề trái 40% so với lề trang web*/
+}
+
+.buttonn {
+    margin-left: 59%;/*căn chỉnh lề trái 59%*/
+    margin-top: -21px;/*dịch chuyển lên trên 21px so với vị trí ban đầu*/
+}
+
+img {
+    position: relative;/*dùng để thiết lập một phần tử mà không ảnh hưởng đến vị trí ban đầu*/
+    width: 100%;/*tạo độ rộng cho trang web là 100%*/
+    height: 100%;/*tạo kích thước đường cao cho hình ảnh là 100%*/
+    object-fit: contain;/*ảnh sẽ được thu gọn để nằm gọn trong khung bao bên ngoài*/
+}

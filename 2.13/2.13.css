@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    background-color: rgb(232, 240, 119);
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(233, 166, 73);
+    margin-bottom: 0px;
+}
+h1{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4{
+    color: red;
+    font-size: 20px;
+}
+h5{
+    color: blue;
+    font-size: 16px;
+    line-height: 2px;
+}
+.red{
+    color: red;
+}
+.text {
+    display: flex;
+}
+.hoai{
+    position: relative;
+    left: 10px;
+    width: 80%;
+}
+#post{
+    width: 660px;
+    height: 800px;
+    float: left;
+    background-color: aqua;
+}
+p1{
+    font-size: 25px;
+}
+p2{
+    font-size: 25px;
+}
+p3{
+    font-size:20px ;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    padding: 13rem;
+
+}
+   
+p4{
+    font-size: 20px;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    padding: 5rem;
+}

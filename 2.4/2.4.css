@@ -1,0 +1,30 @@
+table,
+th,
+td {
+    border-style: double;/*thiết lập viền bảng gấp đôi*/
+    border-collapse: collapse;/*khoảng trống giữa các đường viền (border) của table bị loại bỏ, chỉ còn đường viền duy nhất*/
+    position: relative;/*thiết lập vị trí của phần tử mà vẫn giữ nguyên vị trí ban đầu của nó*/
+    margin-left: auto;/*căn lề trái tự động cho trang web*/
+    margin-right: auto;/*căn lề phải tự động cho trang web*/
+    width: 500px;/*thiết lập độ rộng cho trang web là 500px*/
+}
+
+th,
+td {
+    padding: 10px;/*tạo khoảng trống tính từ viền đến nd phần tử */
+    
+
+}
+
+.mot {
+    color: blue;/*thiết lập màu xanh dương cho dòng chữ*/
+    background-color: #ffcccb;/*thiết lập màu nền cho ô*/
+}
+.ba{
+    color: rgb(255, 34, 0);/*thiết lập màu đỏ cho dòng chữ*/
+    background-color: bisque;/*thiết lập màu nền cho ô*/
+}
+.anh{
+    width: 200px;/*tạo độ rộng cho ảnh là 140px*/
+    height: 250px;/*tạo chiều cao cho ảnh là 195px */
+}

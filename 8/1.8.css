@@ -1,0 +1,30 @@
+table,
+th,
+td {
+    border-style: double; /*thiết lập đường viền gấp đôi cho bảng*/
+  
+   border-collapse: collapse;/*khoảng cách trống giữa các đường viền bị loại bỏ*/
+    position: relative;/*thiết lập vị trí của phần tử mà không làm thay đổi vị trí ban đầu của nó*/
+    margin-left: auto;/*căn lề trái tự động cho văn bản*/
+    margin-right: auto;/*căn lề phải tự động cho trang web*/
+}
+
+th,
+td {
+    padding: 10px;/*tạo khảng trống giữa nội dung và đường viền là 10px*/
+
+}
+
+.mot {
+    color: blue;/*thiết lập màu xanh dương cho dòng chữ*/
+    background-color: #ffcccb;/*thiết lập màu nền cho dòng chữ*/
+}
+
+.hai{
+    color: #000000;/*thiết lập màu đen cho dòng chữ*/
+    background-color: #ffcb99;/*thiết lập màu nền cho dòng chữ*/
+}
+
+.ba {
+    color: #fe0627;/*thiết lập màu đỏ cho dòng chữ*/
+}
